@@ -7,18 +7,18 @@ body{
 }
 /*Styling of Home Page starts*/
 .mainpage{
-/*background-color:#D3D3D3 ;
-text-align:right;*/
+background-color:#D3D3D3 ;
+text-align:right;
+cursor: pointer;
 
 }
-.bg{
-	background-image: url('image.jpg');
-}
+
 .main{
 	list-style-type:none;
 	display: inline-flex;
 	height: 50px;
 	padding-left: 20px;
+	
 
 }
 .home{
@@ -104,37 +104,58 @@ ul{
 ul{
 	list-style-type: none;
 }
-#ii{
-	margin-left:10px;
-	width: 30%;
-	height: 600px;
-	padding: 40px;
-	margin-left: 10px;
-
-} 
+#img{
+	padding:20px;
+}
+ 
 #left{
-	width: 30%;
+	width: 40%;
 	padding:20px;
 }
 #right{
-	width: 70%;
+	width: 60%;
 	padding:25px;
 }
 #right.p{
 	font-size: 25px;
 }
-.h{
-	color: blue;
-}
+
 
 /*styling of site report page*/
-.h{
-	margin-left:10px;
-	width: 30%;
-	height: 600px;
-	padding: 40px;
-	margin-left: 10px;
+.st{
+margin:0px;
+padding:0px;
 
+}
+
+.h{
+	width: 95%;
+	height: 400px;
+	padding: 50px;
+
+
+}
+.rfr{
+	display: flex; flex-direction: row;
+	margin:20px;
+	padding:18px;
+}
+.ss{
+	width:300px;
+	height: 200px;
+	padding:40px;
+}
+p{
+	color: #787878;
+}
+.lgt{
+	width:50%;
+}
+.rgt{
+	width:50%;
+	font-size: 17px;
+	margin:30px;
+	padding:50px;
 }
 
 /*Responsive styling starts*/
@@ -150,9 +171,30 @@ ul{
 		font-size: medium;
 	}
 	#txt{
-		font-size:8px;
+		font-size:13px;
 	}
 	#pp{
 		margin-left: 0px;
+	}
+	#heading{
+		font-size: 17px;
+	}
+	.h{
+		font-size: 12px;
+		margin-left: 0px;
+		padding:20px;
+		margin-bottom: 20px;
+	}
+	.rgt{
+		font-size: 12px;
+
+	}
+	.rfr{
+		padding:60px;
+		margin-top:60px;
+	}
+	.ss{
+		width:70px;
+		height:70px;
 	}
 }
